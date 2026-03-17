@@ -89,13 +89,13 @@ function reset(){
     level = 0;
 }
 function highestScore(){
-    let h5 = document.querySelector("h5");
+    let h3 = document.querySelector("h3");
     if(currentScore>maxScore){
         maxScore=currentScore
-        h5.innerText = `Your highest score is ${currentScore}`;
+        h3.innerText = `Your highest score is ${currentScore}`;
         setTimeout(2000);
     } else {
-        h5.innerText = `Your highest score is ${maxScore}`;
+        h3.innerText = `Your highest score is ${maxScore}`;
         setTimeout(2000);
     }
     
